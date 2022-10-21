@@ -1,11 +1,32 @@
+*{
+    box-sizing: border-box;
+}
 body{
-    height: 100vh;
+    background-color: bisque;
 }
-.container{
-    text-align: center;
-}
-.project-container{
-    display: flex;
-    align-self: center;
+#calculator{
+    height: 90vh;
+    display: grid;
     justify-content: center;
+    align-content: center;
+}
+#calculatorScreen{
+    display: flex;
+    width: 150px;
+    margin: 0;
+}
+#displayInput{
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    border-radius: 10px 0 0 10px;
+}
+#displayAnswer{
+    height: 20px;
+    width: 50px;
+    background-color: white;
+    border-radius: 0 10px 10px 0;
+}
+#calculatorButton{
+    display: grid;
 }
