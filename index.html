@@ -1,38 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Calculator</h1>
+      <h1>Calculator</h1>
     </header>
-    <section id="calculator">
-        <article id="calculatorScreen">
-            <p id="displayInput"></p>
-            <p id="displayAnswer"></p>
-        </article>
-        
-        <article id="calculatorButton">
-            <button id="one">1</button>
-            <button id="two">2</button>
-            <button id="three">3</button>
-            <button id="four">4</button>
-            <button id="five">5</button>
-            <button id="six">6</button>
-            <button id="seven">7</button>
-            <button id="eight">8</button>
-            <button id="nine">9</button>
-            <button id="plus">+</button>
-            <button id="minus">-</button>
-            <button id="times">X</button>
-            <button id="divide">/</button>
-        </article>
+      <article id="calculator">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4">
+                        <table width="100%">
+                            <tr>
+                                <td colspan="3"><p id="calculatorInput">2</p></td>
+                                <td></td>
+                                <td></td>
+                                <td><p id="calculatorAnswer">2</p></td>
+                            </tr>
+                        </table>
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><button id="reset" class="special">C</button></td>
+                    <td><button id="divide" class="special">/</button></td>
+                    <td><button id="times" class="special">X</button></td>
+                    <td><button id="delete" class="special">del</button></td>
+                  </tr>
+                  <tr>
+                    <td><button id="seven">7</button></td>
+                    <td><button id="eight">8</button></td>
+                    <td><button id="nine">9</button></td>
+                    <td><button id="minus" class="special">-</button></td>
+                  </tr>
+                  <tr>
+                    <td></button><button id="four">4</button></td>
+                    <td><button id="five">5</button></td>
+                    <td><button id="six">6</button></td>
+                    <td><button id="plus" class="special">+</button></td>
+                  </tr>
+                  <tr>
+                    <td><button id="one">1</button></td>
+                    <td><button id="two">2</button></td>
+                    <td><button id="three">3</button></td>
+                    <td rowspan="2" class="top"><button id="equals" class="special">=</button></td>
+                  </tr>
+                  <tr>
+                    <td><button id="percent">%</button></td>
+                    <td><button id="zero">0</button></td>
+                    <td><button id="decimal">.</button></td>
+                    <td></td>
+                  </tr>
+            </tbody>
+        </table>
+      </article>
     </section>
-</body>
+  </body>
 </html>
