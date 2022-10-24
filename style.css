@@ -1,32 +1,33 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-body{
-    background-color: bisque;
+body {
+  background-color: beige;
 }
-#calculator{
-    height: 90vh;
-    display: grid;
-    justify-content: center;
-    align-content: center;
+thead {
+  background-color: white;
 }
-#calculatorScreen{
-    display: flex;
-    width: 150px;
-    margin: 0;
+tbody button {
+  width: 100%;
+  border-radius: 20%;
+  background-color: white;
+  border-color: white;
 }
-#displayInput{
-    width: 100px;
-    height: 20px;
-    background-color: white;
-    border-radius: 10px 0 0 10px;
+.top {
+  vertical-align: top;
 }
-#displayAnswer{
-    height: 20px;
-    width: 50px;
-    background-color: white;
-    border-radius: 0 10px 10px 0;
+.special {
+  color: rgb(0, 201, 111);
 }
-#calculatorButton{
-    display: grid;
+#equals {
+  color: white;
+  border-color: rgb(0, 201, 111);
+  background-color: rgb(0, 201, 111);
+  height: 47px;
+}
+thead th {
+  border-radius: 20%;
+}
+th table p {
+  margin: 0;
 }
