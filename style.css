@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  overflow: hidden;
 }
 body {
   background-color: beige;
@@ -26,8 +27,14 @@ tbody button {
   height: 47px;
 }
 thead th {
-  border-radius: 20%;
+  border-radius: 5%;
+  background-color: rgb(0, 201, 111);
+  height: 25px;
 }
 th table p {
   margin: 0;
+  font-size: 1.2em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.983);
 }
