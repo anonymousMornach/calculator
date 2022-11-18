@@ -1,2 +1,2 @@
 Scientist
-A Ruby library for carefully(./contriburion.md)
+[A Ruby library for carefully](./contriburion.md)
